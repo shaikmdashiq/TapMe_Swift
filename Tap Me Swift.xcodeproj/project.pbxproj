@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5471D01019F9E2C200E819BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5471D00F19F9E2C200E819BB /* AppDelegate.swift */; };
+		5471D01219F9E2C200E819BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5471D01119F9E2C200E819BB /* ViewController.swift */; };
+		5471D01519F9E2C200E819BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5471D01319F9E2C200E819BB /* Main.storyboard */; };
+		5471D01719F9E2C200E819BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5471D01619F9E2C200E819BB /* Images.xcassets */; };
+		5471D01A19F9E2C200E819BB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5471D01819F9E2C200E819BB /* LaunchScreen.xib */; };
+		5471D02619F9E2C200E819BB /* TapMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5471D02519F9E2C200E819BB /* TapMeTests.swift */; };
+		5471D03019FA197C00E819BB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5471D02F19FA197C00E819BB /* AVFoundation.framework */; };
+		5471D03419FA1A3D00E819BB /* ButtonTap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5471D03119FA1A3D00E819BB /* ButtonTap.wav */; };
+		5471D03519FA1A3D00E819BB /* SecondBeep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5471D03219FA1A3D00E819BB /* SecondBeep.wav */; };
+		5471D03619FA1A3D00E819BB /* VIP.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5471D03319FA1A3D00E819BB /* VIP.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5471D02019F9E2C200E819BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5471D00219F9E2C200E819BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5471D00919F9E2C200E819BB;
+			remoteInfo = TapMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5471D00A19F9E2C200E819BB /* Tap Me Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tap Me Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5471D00E19F9E2C200E819BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5471D00F19F9E2C200E819BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5471D01119F9E2C200E819BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5471D01419F9E2C200E819BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5471D01619F9E2C200E819BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5471D01919F9E2C200E819BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5471D01F19F9E2C200E819BB /* Tap Me SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tap Me SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5471D02419F9E2C200E819BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5471D02519F9E2C200E819BB /* TapMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapMeTests.swift; sourceTree = "<group>"; };
+		5471D02F19FA197C00E819BB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5471D03119FA1A3D00E819BB /* ButtonTap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ButtonTap.wav; sourceTree = "<group>"; };
+		5471D03219FA1A3D00E819BB /* SecondBeep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SecondBeep.wav; sourceTree = "<group>"; };
+		5471D03319FA1A3D00E819BB /* VIP.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = VIP.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5471D00719F9E2C200E819BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5471D03019FA197C00E819BB /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5471D01C19F9E2C200E819BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5471D00119F9E2C200E819BB = {
+			isa = PBXGroup;
+			children = (
+				5471D02F19FA197C00E819BB /* AVFoundation.framework */,
+				5471D00C19F9E2C200E819BB /* TapMe */,
+				5471D02219F9E2C200E819BB /* TapMeTests */,
+				5471D00B19F9E2C200E819BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5471D00B19F9E2C200E819BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5471D00A19F9E2C200E819BB /* Tap Me Swift.app */,
+				5471D01F19F9E2C200E819BB /* Tap Me SwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5471D00C19F9E2C200E819BB /* TapMe */ = {
+			isa = PBXGroup;
+			children = (
+				5471D00F19F9E2C200E819BB /* AppDelegate.swift */,
+				5471D01119F9E2C200E819BB /* ViewController.swift */,
+				5471D01319F9E2C200E819BB /* Main.storyboard */,
+				5471D01619F9E2C200E819BB /* Images.xcassets */,
+				5471D01819F9E2C200E819BB /* LaunchScreen.xib */,
+				5471D00D19F9E2C200E819BB /* Supporting Files */,
+			);
+			path = TapMe;
+			sourceTree = "<group>";
+		};
+		5471D00D19F9E2C200E819BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5471D03119FA1A3D00E819BB /* ButtonTap.wav */,
+				5471D03219FA1A3D00E819BB /* SecondBeep.wav */,
+				5471D03319FA1A3D00E819BB /* VIP.mp3 */,
+				5471D00E19F9E2C200E819BB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5471D02219F9E2C200E819BB /* TapMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				5471D02519F9E2C200E819BB /* TapMeTests.swift */,
+				5471D02319F9E2C200E819BB /* Supporting Files */,
+			);
+			path = TapMeTests;
+			sourceTree = "<group>";
+		};
+		5471D02319F9E2C200E819BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5471D02419F9E2C200E819BB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5471D00919F9E2C200E819BB /* Tap Me Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5471D02919F9E2C200E819BB /* Build configuration list for PBXNativeTarget "Tap Me Swift" */;
+			buildPhases = (
+				5471D00619F9E2C200E819BB /* Sources */,
+				5471D00719F9E2C200E819BB /* Frameworks */,
+				5471D00819F9E2C200E819BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tap Me Swift";
+			productName = TapMe;
+			productReference = 5471D00A19F9E2C200E819BB /* Tap Me Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5471D01E19F9E2C200E819BB /* Tap Me SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5471D02C19F9E2C200E819BB /* Build configuration list for PBXNativeTarget "Tap Me SwiftTests" */;
+			buildPhases = (
+				5471D01B19F9E2C200E819BB /* Sources */,
+				5471D01C19F9E2C200E819BB /* Frameworks */,
+				5471D01D19F9E2C200E819BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5471D02119F9E2C200E819BB /* PBXTargetDependency */,
+			);
+			name = "Tap Me SwiftTests";
+			productName = TapMeTests;
+			productReference = 5471D01F19F9E2C200E819BB /* Tap Me SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5471D00219F9E2C200E819BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = ak46;
+				TargetAttributes = {
+					5471D00919F9E2C200E819BB = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					5471D01E19F9E2C200E819BB = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 5471D00919F9E2C200E819BB;
+					};
+				};
+			};
+			buildConfigurationList = 5471D00519F9E2C200E819BB /* Build configuration list for PBXProject "Tap Me Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5471D00119F9E2C200E819BB;
+			productRefGroup = 5471D00B19F9E2C200E819BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5471D00919F9E2C200E819BB /* Tap Me Swift */,
+				5471D01E19F9E2C200E819BB /* Tap Me SwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5471D00819F9E2C200E819BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5471D03619FA1A3D00E819BB /* VIP.mp3 in Resources */,
+				5471D01519F9E2C200E819BB /* Main.storyboard in Resources */,
+				5471D03519FA1A3D00E819BB /* SecondBeep.wav in Resources */,
+				5471D01A19F9E2C200E819BB /* LaunchScreen.xib in Resources */,
+				5471D03419FA1A3D00E819BB /* ButtonTap.wav in Resources */,
+				5471D01719F9E2C200E819BB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5471D01D19F9E2C200E819BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5471D00619F9E2C200E819BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5471D01219F9E2C200E819BB /* ViewController.swift in Sources */,
+				5471D01019F9E2C200E819BB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5471D01B19F9E2C200E819BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5471D02619F9E2C200E819BB /* TapMeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5471D02119F9E2C200E819BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5471D00919F9E2C200E819BB /* Tap Me Swift */;
+			targetProxy = 5471D02019F9E2C200E819BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5471D01319F9E2C200E819BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5471D01419F9E2C200E819BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5471D01819F9E2C200E819BB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5471D01919F9E2C200E819BB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5471D02719F9E2C200E819BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5471D02819F9E2C200E819BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5471D02A19F9E2C200E819BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TapMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "Tap Me Swift";
+			};
+			name = Debug;
+		};
+		5471D02B19F9E2C200E819BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TapMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "Tap Me Swift";
+			};
+			name = Release;
+		};
+		5471D02D19F9E2C200E819BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TapMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "Tap Me SwiftTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapMe.app/TapMe";
+			};
+			name = Debug;
+		};
+		5471D02E19F9E2C200E819BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TapMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "Tap Me SwiftTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapMe.app/TapMe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5471D00519F9E2C200E819BB /* Build configuration list for PBXProject "Tap Me Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5471D02719F9E2C200E819BB /* Debug */,
+				5471D02819F9E2C200E819BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5471D02919F9E2C200E819BB /* Build configuration list for PBXNativeTarget "Tap Me Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5471D02A19F9E2C200E819BB /* Debug */,
+				5471D02B19F9E2C200E819BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5471D02C19F9E2C200E819BB /* Build configuration list for PBXNativeTarget "Tap Me SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5471D02D19F9E2C200E819BB /* Debug */,
+				5471D02E19F9E2C200E819BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5471D00219F9E2C200E819BB /* Project object */;
+}
